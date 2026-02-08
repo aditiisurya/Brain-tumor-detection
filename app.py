@@ -21,7 +21,7 @@ st.set_page_config(
 # -----------------------------
 @st.cache_resource
 def load_trained_model():
-    return load_model("brain_tumor_resnet50.h5")
+    return load_model("brain_tumor_resnet50.keras")
 
 model = load_trained_model()
 
